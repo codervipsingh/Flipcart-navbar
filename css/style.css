@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: rgb(43, 38, 38);
+}
+.main{
+    background-color: rgb(254, 254, 254);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    margin-top:250px ;
+    flex-direction: column;
+ 
+    
+}
+.head{
+    background-color: rgb(62,113,231);
+    width: 100%;
+    height: 36%;
+    align-items: center;
+    display: flex;
+    top: 0;
+    padding: 0;
+    color: aliceblue;
+   position: relative;
+    
+}
+nav p{
+    margin-top:35px;
+    font-size: 12px;
+    margin-left: -80px;
+    font-style: italic;
+}
+
+.head  .image{
+    margin-left: 160px;
+ 
+  }
+  .head .star{
+     width: 10px;
+     height: 10px;
+  
+   }
+   .head i{
+    color: blue;
+    margin-left: 830px;
+    position: absolute;
+   }
+ 
+.head ul li{
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+   display: inline;
+ }
+
+.darrow{
+    width: 10px;
+    
+}
+
+ .head  input{
+    width: 600px;
+    height: 40px;
+    margin-left: 20px;
+
+ }
+ .head  button{
+    width: 100px;
+   margin-top: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+    height: 30px;
+    color:blue
+
+ }
+ .cart{
+   margin-right: -40px;
+   margin-left: 40px;
+   padding-top: -30px;
+
+ }
+ .top{
+   width: 100%;
+   height: 64%;
+   display: flex;
+   justify-content: space-around;
+ }
+ .tab{
+   /* border:2px solid red; */
+   width: 8%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   padding-bottom:20px ;
+ }
+ /* .top img{
+    margin-top: 20px;
+    width: 50px;
+    height: 60px;
+ } */
+ .newimg img{
+   /* border: 2px red solid; */
+   width: 50px;
+   height: 50px;
+   margin-top: 10px;
+ }
+ .newimg i{
+
+    padding-left: -100;
+    position: absolute;
+ }
+ li{
+    list-style: none;
+}
+
+li i{
+   margin: 5px;
+}
+.fashion{
+   font-size: 13px;
+   font-weight: 500;
+   margin: -2px;
+  text-align: center;
+}
